@@ -1,0 +1,94 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?86aln9');
+  src:  url('../fonts/icomoon.eot?86aln9#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?86aln9') format('truetype'),
+    url('../fonts/icomoon.woff?86aln9') format('woff'),
+    url('../fonts/icomoon.svg?86aln9#icomoon') format('svg');
+  font-weight: normal;
+
+  font-display: block;
+}
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.nav {
+	height: 60px;
+	background-color: #f5f5f5;
+}
+a {
+	text-decoration: none;
+	cursor: pointer;
+}
+a:hover {
+    color: #e33333;
+}
+.title {
+	float: left;
+	width: 200px;
+	text-align: center;
+	margin: 0 auto;
+	color: #a2a2a2;
+	line-height: 60px;
+}
+.user,.cart,.logout,.login{
+	margin-right: 30px;
+	float: right;
+	color: #a2a2a2;
+	line-height: 60px;
+}
+#myCart{
+	font-family: icomoon;
+}
+form{
+	margin: auto;
+	height: 500px;
+}
+table {
+	margin: auto;
+	width: 1200px;
+}
+tr{
+	height: 80px;
+	text-align: center;
+}
+td {
+	width: 300px;
+}
+img {
+	width: 100px;
+	height: 100px;
+}
+input[type="checkbox"] {
+	width: 20px;
+	height: 20px;
+}
+#subBtn{
+	margin-top: 20px;
+	margin-right: 265px;
+	float: right;
+	width: 180px;
+	color: #FFF;
+	border-color: #F40;
+	background: #F40;
+    height: 38px;
+    text-align: center;
+	font-family: "Hiragino Sans GB","microsoft yahei",sans-serif;
+	display: block;
+	cursor: pointer;
+	font-size: 16px;
+	line-height: 38px;
+	border-width: 1px;
+   border-style: solid;
+}
+.banner{
+	width: 100%;
+	text-align: center;
+	line-height: 60px;
+	position: absolute;
+	height: 60px;
+	background-color: #f5f5f5;
+	bottom:0px
+}
+	
